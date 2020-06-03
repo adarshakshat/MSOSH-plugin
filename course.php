@@ -23,6 +23,7 @@ function msoshcourse_setup_post_type() {
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
+        'show_in_rest' => true,
         'rewrite' => array('slug' =>'courses'),
         'query_var' => true,
         'supports' =>array(
@@ -47,6 +48,7 @@ function msoshcourse_setup_post_type() {
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
+        'show_in_rest' => true,
         'rewrite' => array('slug' =>'faculty'),
         'query_var' => true,
         'supports' =>array(
@@ -71,6 +73,7 @@ function msoshcourse_setup_post_type() {
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
+        'show_in_rest' => true,
         'rewrite' => array('slug' =>'notice'),
         'query_var' => true,
         'supports' =>array(
